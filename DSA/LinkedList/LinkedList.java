@@ -1,6 +1,4 @@
-import javax.management.RuntimeErrorException;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+package LinkedList;
 
 public class LinkedList {
 
@@ -13,7 +11,7 @@ public class LinkedList {
         this.size = 0;
     }
 
-//   ========================= Insert In The LinkedList ======================== //
+//   ========================= Insert In The LinkedList.LinkedList ======================== //
 
     public void insertFirst(int val){
         Node newNode = new Node(val);
@@ -43,7 +41,7 @@ public class LinkedList {
         size++;
     }
 
-//   ========================= Delete From The LinkedList ======================== //
+//   ========================= Delete From The LinkedList.LinkedList ======================== //
 
     public int deleteFirst(){
         int val = head.val;
@@ -57,7 +55,7 @@ public class LinkedList {
         return val;
     }
 
-//    ============================= Display LinkedList ========================== //
+//    ============================= Display LinkedList.LinkedList ========================== //
 
     public void Display(Node head){
         Node temp = head;
@@ -181,7 +179,7 @@ public class LinkedList {
 //        ll.rotateRight(ll.head , 2);
 
 //        ll.rotateByOne(ll.head);
-//        ll.Display(ll.head);
+        ll.Display(ll.head);
 
 
     }
